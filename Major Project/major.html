@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="major.css">
+</head>
+<body>
+  <form id="validationform">
+    <div class="nameblock">
+      <label for="Name">Full Name</label>
+      <input type="text" name="Name" placeholder="Enter Your Name" id="Name" />
+      <div class="errordisplay" id="NameError"></div>
+    </div>
+    <br />
+
+    <div class="emailblock">
+      <label for="email">E-mail</label>
+      <input type="text" name="email" placeholder="Enter Your E-mail id" id="email" />
+      <div class="errordisplay" id="emailError"></div>
+    </div>
+    <br />
+
+    <div class="Phoneblock">
+      <label for="Phone_No">Phone No.</label>
+      <input type="text" name="Phone_No" placeholder="Enter Your Phone Number" id="Phone_No" />
+      <div class="errordisplay" id="phoneError"></div>
+    </div>
+    <br />
+
+    <div class="passwordblock">
+      <label for="Password">Password</label>
+      <input type="password" name="Password" placeholder="Enter Your Password" id="Password" />
+      <div class="errordisplay" id="passwordError"></div>
+    </div>
+    <br />
+
+    <div class="confirmpasswordblock">
+      <label for="ConfirmPass">Confirm Password</label>
+      <input type="password" name="ConfirmPass" placeholder="Confirm Your Password" id="ConfirmPass" />
+      <div class="errordisplay" id="confirmError"></div>
+    </div>
+    <br />
+
+    <button type="submit" style="margin-left:3rem; margin-top:1rem; background-color: white; font-size:1rem; border:none; border-radius:10px; height:2rem; width:5rem;">Submit</button>
+  </form>
+
+  <script src="major.js"></script>
+</body>
+</html>
