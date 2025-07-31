@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL PARADISE</title>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="C:\Users\Acer\Documents\PLASMID\hotel.png">
+<script src="https://kit.fontawesome.com/e7357d0f26.js" crossorigin="anonymous"></script>
+<script src="hotel.js"></script>
+</head>
+<body>
+        <section class="hero-section">
+        <div class="navlinks">
+<ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="rooms.html">ROOMS</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">CONTACT US</a></li>
+</ul>
+</div>
+        <div class="hero-text">
+            <h1>Welcome to Paradise Hotel</h1>
+            <p style="text-align: center; font-size:20px;">We Provide rooms at a very good price along with great amenities</p>
+            <p class="para2" style="font-size:20px; text-align: center;">to make your living experience awesome</p>
+            <button class="Home-button">Book</button>
+        </div>
+    </section>
+    <br>
+   
+    <section name="about-section">
+        <h1 style="margin-right:35%; text-decoration:none; border:1px solid transparent; background-color:#FFC857; color:black;">About Us</h1>
+        <div class="para">
+            <p>Looking for a vacation to leave behind the hustle of everyday life and indulge in world-class hospitality at
+            exotic
+            locations? Look no further than the leading & fastern growing hotel chain of Eastern India, Hotel Paradise. Your
+            unwinding days with us will be the perfect blend of leisure, comfort, convenience & class.</p>
+            <p style="margin-top:20px;">We are currently at Puri, Jammu, Darjeeling, Taki & Sunderban to make your well
+           deserved vacations a truly unforgettable affair.</p>
+        </div>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have: </h3>
+            <ul style="margin-top:10px; margin-left:-10px">
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-bowl-food"></i></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <button class="know-button">Know More.......</button>
+    <br>
+    <br>
+    <section class="Roomtype">
+            <h1 style="text-align: center; font-size:40px; text-decoration: none;">Room Type</h1>
+            <br>
+            <br>
+            <div class="room1">
+                <h2>Single Occupancy Room</h2>
+<p>A room assigned to one person. May have one or more beds.The room size or area of Single Roomas are generally between 37 m2 to 45 m2.</p>
+<h2>Family Room</h2>
+<p>A parlour or living room connected with to one or more bedrooms. (A room with one or more bedrooms and a separate living space.) The room size or area of Suite rooms are generally between 70m2 to 100m2.</p>
+<h2>Duplex Room</h2>
+<p>The most expensive room provided be a hotel. Usually, only one Suplex suite is available in one single hotel property. Similar to the normal suites, a Duplex suite always has one or more bedrooms and a living space with a strong emphasis on grand in-room decoration, high-quality amenities amd supplies, and tailer-made services (e.g. personal butler during the stay).</p>
+</div>
+<div class="imageroom">
+<img src="room.jpg" height=400px width=600px alt="">
+            </div>
+            <br>
+            <br>
+        <div class="helpbutton">
+            <button style="color:black; font-size:15px; font-weight: 700;">Need help?</button>
+        </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<h1 class="resthead" style="margin-left:40%; font-size:40px; text-decoration:none; background-color:#FFC857; color:black;">Restaurants</h1>
+<br>
+<br>
+<div class="rest">
+    <div class="rest2">
+        <h2>Moonlight Dine</h2>
+        <button class="menu"><a href="">Menu</a></button>
+    </div>
+    <div class="rest3">
+        <h2>Aura Lounge</h2>
+        <button class="menu"><a href="">Menu</a></button>
+    </div>
+    <div class="rest4">
+        <h2>Vibe & Vine</h2>
+        <button class="menu"><a href="">Menu</a></button>
+    </div>
+    <div class="rest5">
+        <h2>The Drunken Olive</h2>
+        <button class="menu"><a href="">Menu</a></button>
+    </div>
+</div>
+<h3 style="font-size:20px; margin-left:45%; margin-top:100px; border:1px solid white; background-color:#FFC857; color:black; border:none;">Fill the form for booking room </h3>
+<div class="form1">
+<form>
+<label for="name">Your Full Name</label>
+<br>
+<input type="text" name="name">
+<br>
+<br>
+<label for="email">Email Id</label>
+<br>
+<input type="email" name="email">
+<br>
+<br>
+<label for="date">Date of Booking</label>
+<br>
+<input type="date" name="date">
+<br>
+<br>
+<label for="roomtype">Select Room Type</label>
+<br>
+<select name="roomtype">
+    <option value=" " selected disabled>Select......</option>
+    <option value="single-room" style="color:black;">Single Room</option>
+    <option value="family-room" style="color:black;">Family Room</option>
+    <option value="duplex room" style="color:black;">Duplex Room</option>
+</select>
+<br>
+<br>
+<button id="formbutton">Book</button>
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

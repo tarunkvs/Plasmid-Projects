@@ -1,0 +1,569 @@
+body{
+    position:relative;
+    background-color:rgb(0, 0, 0);
+}
+*{
+    padding:0;
+    margin:0;
+  font-family: "Open Sans", sans-serif;
+  color:white;
+}
+.hero-section{
+    background-image:url(homepage.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgba(0,0,0,0.4);
+    position:relative;
+    min-height:100vh;
+    width:100vw;
+}
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    margin-top:50px;
+}
+.hero-text p{
+    font-size:1rem;
+}
+.hero-text h1{
+    text-align: center;
+    font-size:40px;
+}
+.Home-button{
+    margin-left:47%;
+    margin-top:50px;
+    height:40px;
+    width:80px;
+    border:none;
+    background-color:#00C9A7;
+    border-radius:20px;
+    color:black;
+    font-size:1rem;
+    padding:5px;
+    cursor: pointer;
+    transition:1s ease;
+}
+    @media (max-width:600px) {
+      .Home-button {
+        width: auto;
+        font-size: 18px;
+        max-width:100%;
+      }
+    }
+.para{
+    float:left;
+    width:50%;
+    margin-left:40px;
+    margin-top:20px;
+}
+.amenities{
+    display:inline-block;
+    margin-left:300px;
+    margin-top:20px;
+}
+.know-button{
+    margin-top:3%;
+margin-left:-400px;
+height:40px;
+width:120px;
+padding:5px;
+background-color: #00C9A7;
+border:none;
+border-radius: 20px;
+font-size:15px;
+cursor: pointer;
+transition:1s ease;
+}
+.hero-section ul{
+    display:flex;
+    justify-content: space-around;
+    margin-left:600px;
+}
+.navlinks li{
+    margin-top:30px;
+    padding:10px 10px;
+    align-items:end;
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+.navlinks ul li a{
+    transition:1s ease;
+}
+.navlinks ul li a:hover{
+color:#FF6B6B;
+}
+.Home-button:hover{
+    background-color:#FF6B6B;
+}
+.know-button:hover{
+    background-color: #FF6B6B;
+}
+.amenities ul{
+    list-style:none;
+}
+.fa-solid{
+    margin-right:15px;
+}
+.room1{
+    position:relative;
+    margin-left:10px;
+    width:50%;
+    margin-top:40px;
+}
+.Roomtype{
+    border:1px solid transparent;
+    height:500px;
+    background-image:url('back.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(70, 69, 69);
+
+}
+.imageroom{
+    position:absolute;
+    margin-top:-350px;
+    margin-left:650px;
+    background-repeat: no-repeat;
+}
+.helpbutton{
+    margin-left:90%;
+    position:fixed;
+    bottom: 10px;
+    z-index:1000;
+}
+.helpbutton button{
+    background-color:#FFC857;
+    border:2px solid #FFC857;
+    width:100px;
+    height:40px;
+    border-radius:20px;
+    transition:0.3s ease;
+    transform-origin: center center;
+}
+.helpbutton button:hover{
+    transform:scale(1.1);
+    box-shadow: 0 6px 25px #FF6B6B, 0 0 10px #c80303;
+    background-color:#FF6B6B;
+    border:#c80303;
+}
+.form1{
+    margin-left:40%;
+    margin-top:40px;
+    border:2px solid none;
+    width:15%;
+    padding:100px;
+    color:white;
+    border-radius:20px;
+    background-image:url("hotel-lobby.jpg");
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,0.1);
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.form1 input{
+    color:black;
+}
+.roomtype{
+color:black;
+}
+#formbutton{
+    margin-left:23%;
+    margin-top:20px;
+    width:100px;
+    height:40px;
+    background-color:#FF6B6B;
+    border-radius:20px;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s ease;
+    transform-origin: center center;
+}
+#formbutton:hover{
+    transform:scale(1.1);
+    background-color:#00C9A7;
+    box-shadow: 0 6px 25px #FF6B6B, 0 0 10px #006f5d;
+    border:2px solid #00C9A7;
+
+}
+.resthead{
+    border:1px solid transparent;
+
+}
+.rest h2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-3px;
+    border:1px  transparent;
+    background-color: rgb(38, 38, 38);
+    background-blend-mode: overlay;
+    border-radius:20px;
+}
+.rest{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+}
+.rest2{
+    border:1px  transparent;
+    height:80vh;
+    width:300px;
+    border-radius:20px;
+    background-image: url('img1.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    background-blend-mode:overlay;
+    background-color: rgb(85, 85, 85);
+    transition:0.3s ease;
+    transform-origin: center center;
+}
+.rest3{
+    border:1px  transparent;
+    height:80vh;
+    width:300px;
+    background-image:url('img2.jpg');
+    border-radius:20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    background-blend-mode:overlay;
+    background-color: rgb(85, 85, 85);
+    transition:0.3s ease;
+    transform-origin:center center;
+}
+.rest4{
+        border:1px  transparent;
+    height:80vh;
+    width:300px;
+    border-radius:20px;
+    background-image:url('img3.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    background-blend-mode:overlay;
+    background-color: rgb(85, 85, 85);
+    transition:0.3s ease;
+    transform-origin:center center;
+}
+.rest5{
+        border:1px  transparent;
+    height:80vh;
+    width:300px;
+    border-radius:20px;
+    background-image:url('img4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-blend-mode:overlay;
+    background-color: rgb(85, 85, 85);
+    transition:0.3s ease;
+    transform-origin:center center;
+}
+.menu{
+    position:absolute;
+    color:white;
+    margin-top:380px;
+    margin-left:100px;
+    height:40px;
+    width:80px;
+    background-color:#FF6B6B;
+    color:white;
+    border-radius:20px;
+    border:none;
+    font-size:20px;
+}
+.menu a{
+    text-decoration: none;
+}
+.rest2:hover{
+    box-shadow:0 0 15px white;
+    transform: scale(1.1);
+}
+.rest3:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px white;
+}
+.rest4:hover{
+    box-shadow:0 0 15px white;
+    transform:scale(1.1);
+}
+.rest5:hover{
+    box-shadow:0 0 15px white;;
+    transform:scale(1.1);
+}
+.roomliving{
+    border:1px transparent;
+    background-image:url('living_palace.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:10px;
+    position:relative;
+    transition:0.3s ease;
+    transform-origin: center center;
+}
+.roomliving h2{
+    border:1px solid white;
+    position:absolute;
+    margin-top:350px;
+    margin-left:210px;
+    background-color:white;
+    color:black;
+}
+.roomliving a{
+    position:absolute;
+    margin-top:379px;
+    margin-left:210px;
+    border:1px solid white;
+    background-color:white;
+    color:blue;
+    width:167px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.room2{
+        border:1px transparent;
+    background-image:url('resort.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:10px;
+    position:relative;
+    transition:0.3s ease;
+    transform-origin: center center;
+
+}
+.room2 h2{
+    border:1px solid white;
+    position:absolute;
+    margin-top:350px;
+    margin-left:210px;
+    background-color:white;
+    color:black;
+    width:167px;
+}
+.room2 a{
+    position:absolute;
+    margin-top:379px;
+    margin-left:210px;
+    border:1px solid white;
+    background-color:white;
+    color:blue;
+    width:167px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.room3{
+       border:1px transparent;
+    background-image:url('newopening.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:10px;
+    position:relative;
+    transition:0.3s ease;
+    transform-origin: center center;
+
+}
+.room3 h2{
+      border:1px solid white;
+    position:absolute;
+    margin-top:350px;
+    margin-left:210px;
+    background-color:white;
+    color:black;
+  
+}
+.room3 a{
+      position:absolute;
+    margin-top:379px;
+    margin-left:210px;
+    border:1px solid white;
+    background-color:white;
+    color:blue;
+    width:167px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.mainroom{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.roomliving:hover{
+    transform:scale(1.1);
+  box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
+.room2:hover{
+    transform:scale(1.1);
+  box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
+.room3:hover{
+    transform:scale(1.1);
+      box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
+.palacehead{
+    border:1px  transparent;
+    margin-top:20px;
+    width:450px;
+    background-color:#FFC857;
+    color:black;
+}
+.palace1{
+    border:1px transparent;
+    background-image:url('royal1.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:5px;
+    position:relative;
+}
+.palace1 .palace1button{
+    position:absolute;
+    width:90px;
+    margin-top:113%;
+background-color:#FF6B6B;
+color:black;
+border-radius:20px;
+margin-left:40%;
+height:40px;
+border:none;
+}
+.palace2{
+        border:1px transparent;
+    background-image:url('royal2.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:10px;
+    position:relative;
+}
+.palace2 .palace1button{
+    position:absolute;
+    width:90px;
+    margin-top:113%;
+background-color:#FF6B6B;
+color:black;
+border-radius:20px;
+margin-left:40%;
+height:40px;
+border:none;
+}
+.palace3{
+        border:1px transparent;
+    background-image:url('royal3.jpg');
+    width:400px;
+    height:80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:10px;
+    position:relative;
+}
+.palace3 .palace1button{
+    position:absolute;
+    width:90px;
+    margin-top:113%;
+background-color:#FF6B6B;
+color:black;
+border-radius:20px;
+margin-left:40%;
+height:40px;
+border:none;
+transition:0.2s ease;
+transform-origin:center center;
+}
+.palace1button:hover{
+    transform:scale(1.1);
+    background-color:#FFC857;
+}
+.palaceroom{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+@media only screen and (max-width:500px){
+    .amenities{
+        display:inline;
+        padding:2rem 1rem;
+        
+    }
+    .amenities>h3{
+        text-align:center;
+    }
+    .amenities li{
+        text-align: center;
+    }
+    .know-button{
+        margin-left:10rem;
+    }
+    .para{
+        font-size:1rem;
+        width:auto;
+        max-width: 100%;
+        margin-left:2rem;
+        justify-items:center;
+        }
+    .Roomtype>h1{
+font-size:2rem;
+width:auto;
+        }
+        .room1{
+            width:auto;
+        }
+    .Roomtype{
+height:auto;
+max-height: 100%;
+width:auto;
+max-width:100%;
+        }
+.rest{
+    display:block;
+    margin-left:5rem;
+}
+.form1{
+    margin-left:6rem;
+}
+.helpbutton{
+    margin-left:20rem;
+}
+.navlinks>ul{
+    margin-left:1rem;
+    margin-top:0.1rem;
+}
+}
